@@ -7,9 +7,8 @@
 3. Run save_reg.bat file to save Windows registries
 
 4. Use following commands in PowerShell  to automatically deploy Active Directory and to add users to AD:
-
-	PS> $PATH> set-executionpolicy remotesigned
-
+PS> $PATH > set-executionpolicy remotesigned
+	
 	PS> $PATH\_AD_DC > dcpromo /unattend:unettend_dc.txt
 
         PS> $PATH\_AD_DC\_AD_> .\ou_create.ps1
