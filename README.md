@@ -4,15 +4,16 @@
 2. Run "test_vss.bat" file to test vss (used when testing prevention methods)
 3. Run save_reg.bat file to save Windows registries
 4. Use following commands in PowerShell to automatically deploy Active Directory and to add groups & users to it:
-PS> $PATH > set-executionpolicy remotesigned
 
-PS> $PATH\_AD_DC > dcpromo /unattend:unettend_dc.txt
+        PS> $PATH > set-executionpolicy remotesigned
 
-PS> $PATH\_AD_DC\_AD_> .\ou_create.ps1
+        PS> $PATH\_AD_DC > dcpromo /unattend:unettend_dc.txt
 
-PS> $PATH\_AD_DC\_AD_\AddUserstoGroup> .\create_bulk_users.ps1
+        PS> $PATH\_AD_DC\_AD_> .\ou_create.ps1
 
-PS> $PATH\_AD_DC\_AD_\AddUserstoGroup> .\create_users_2.ps1
+        PS> $PATH\_AD_DC\_AD_\AddUserstoGroup> .\create_bulk_users.ps1
+
+        PS> $PATH\_AD_DC\_AD_\AddUserstoGroup> .\create_users_2.ps1
 
 
 5. Escalate to SYSTEM permission by using following commands in Command prompt:
