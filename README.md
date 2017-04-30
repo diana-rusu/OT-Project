@@ -1,4 +1,4 @@
-# OT-Project; Windows credential dumpers
+# OT-Project; Automatically test Windows credential dumpers
 
 1. Start with the "start_testing" file from the "test_tools_standalone" folder (available in both variants x86 and x64 system type)
 
