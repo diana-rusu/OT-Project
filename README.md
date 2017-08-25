@@ -1,7 +1,7 @@
 # OT-Project; Automatically test Windows credential dumpers
 
 1. Start from the file "start_testing" located in the "test_tools_standalone" folder (available in both variants x86 and x64 system type)
-2. Run "test_vss.bat" file to test vss (used when testing prevention methods)
+2. Run "test_vss.bat" file to test vss (used when testing prevention methods). VSS = Voulme Shadow Service
 3. Run save_reg.bat file to save Windows registries
 4. Use following commands in PowerShell to automatically deploy Active Directory and to add groups & users to it:
 
